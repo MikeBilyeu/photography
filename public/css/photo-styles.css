@@ -1,8 +1,13 @@
+/* mobile first */
 html, body {
   margin: 0 auto;
   font-family: Helvetica, sans-serif;
   background-color: #101010;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+}
+
+.removeMobile {
+  display: none;
 }
 
 nav {
@@ -174,30 +179,47 @@ h1 {
 }
 
 #photo-container {
-padding-top: 5rem ;
-box-sizing: border-box;
-min-height: 300px;
+  margin: 10rem 0;
+  min-height: 900px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+  'a b c';
+  place-items: center;
+  box-sizing: border-box;
 }
 
+#photo-container, #photo-container * {
+  border: solid red 1px;
+}
 
 .photos {
-  display: block;
-  margin: 10rem auto;
-  max-width: 100%;
-  height: auto;
+  grid-area: b;
+  width: 100%;
+  height: 600px;
+  /* width: 100%;
+  max-width: 400px;
+  height: auto; */
+  object-fit: contain;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
 }
 
 .arrow {
-display: none;
+  width: 2rem;
+  cursor: pointer;
+  display: inherit;
 }
 
 #leftArrow {
   transform: rotate(180deg) !important;
+  grid-area: a;
 }
 
+#rightArrow {
+  grid-area: c;
+}
 
 footer {
   background-color: #242424;
@@ -250,7 +272,6 @@ width: 250px;
   text-align: center;
 }
 
-
 footer {
   grid-template-columns: 1fr;
   padding: 1rem .5rem;
@@ -278,32 +299,6 @@ footer {
 .footer-cont {
 padding: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -345,38 +340,8 @@ padding: 2rem;
     font-size: 1.1rem;
   }
 
-  #photo-container {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-areas:
-    'a b b c';
-    place-items: center;
-    grid-row-gap: 1rem;
-    padding: 2rem;
-    box-sizing: border-box;
-  }
-
-  .arrow {
-    width: 9rem;
-    cursor: pointer;
-    display: inherit;
-  }
-
-  #leftArrow {
-    grid-area: a;
-    justify-self: end;
-  }
-
-  .photos {
-    width: 800px;
-    height: 450px;
-    object-fit: contain;
-    grid-area: b;
-  }
-
-  #rightArrow {
-    grid-area: c;
-    justify-self: start;
+  #photo-container, #photo-container * {
+    border: solid blue 1px;
   }
 
   footer {
@@ -431,14 +396,31 @@ padding: 2rem;
     border: none;
   }
 
+}
+
+@media screen and (min-width: 700px) {
+
+  .photos {
+    width: 600px;
+    height: 600px;
+  }
+
+  #photo-container, #photo-container * {
+    border: solid pink 1px;
+  }
+
 
 }
 
-
+/* screen >= 1200px */
 @media screen and (min-width: 1200px) {
 
   h1 {
     font-size: 240px;
+  }
+
+  #photo-container, #photo-container * {
+    border: solid green 1px;
   }
 
 
