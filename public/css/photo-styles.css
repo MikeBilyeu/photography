@@ -213,10 +213,6 @@ h1 {
   grid-area: c;
 }
 
-footer, footer * {
-  border: solid red 1px !important;
-}
-
 footer {
   background-color: #242424;
   display: grid;
@@ -228,14 +224,11 @@ footer {
 .footer-header {
   margin: 0 0 1rem 0;
   text-align: center;
-}
-
-#footer-mikebilyeu {
-    margin: 0;
+  letter-spacing: .1rem;
 }
 
 .footer-cont {
-  width: 200px;
+  width: 9rem;
   display: inline-grid;
 }
 
@@ -246,7 +239,9 @@ footer {
 .footer-link {
   color: #C9C9C9;
   text-decoration: none;
-  font-size: .8rem;
+  font-size: .7rem;
+  letter-spacing: .05rem;
+  font-weight: lighter;
   margin: .2rem auto;
   padding: .1rem;
 }
@@ -259,7 +254,7 @@ footer {
  #footer-website-links {
   border-left: solid #707070 .1px;
   border-right: solid #707070 .1px;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   display: inline-grid;
 }
 
@@ -286,7 +281,6 @@ footer {
 }
 
 .footer-cont {
-  border: solid blue;
   padding: 2rem;
 }
 
@@ -328,43 +322,30 @@ footer {
     font-size: 1.1rem;
   }
 
-  /* footer {
-    grid-template-columns: 1.5fr 1fr 1.5fr;
-    justify-items: center;
-    padding: 3rem 0;
+}
+/* screen >= 700px */
+@media screen and (min-width: 700px) {
+  .photos {
+    width: 600px;
+    height: 600px;
   }
 
-  .footer-header {
-    margin: 0 0 2rem 0;
-  }
-
-  #footer-mikebilyeu {
-    margin: 0 0 1rem 0;
-  }
-
-  .footer-cont {
-    display: inline;
+  footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    padding: 2rem 1rem;
   }
 
   .footer-cont {
-  width: 250px;
+    height: 95%;
+    padding: 0;
   }
 
   #footer-contact {
-    text-align: center;
     order: 1
   }
 
-  .footer-link {
-    color: #C9C9C9;
-    text-decoration: none;
-    font-size: .8rem;
-    margin: .2rem 1rem;
-    display: inline-block;
-  }
-
   #footer-website {
-    text-align: center;
       order: 2
   }
 
@@ -375,17 +356,8 @@ footer {
   }
 
    #footer-social {
-    text-align: center;
     order: 3;
     border: none;
-  } */
-
-}
-/* screen >= 700px */
-@media screen and (min-width: 700px) {
-  .photos {
-    width: 600px;
-    height: 600px;
   }
 
 
@@ -396,4 +368,12 @@ footer {
   h1 {
     font-size: 240px;
   }
+
+  #footer-contact {
+    justify-self: end;
+  }
+
+  #footer-social {
+   justify-self: start;
+ }
 }
