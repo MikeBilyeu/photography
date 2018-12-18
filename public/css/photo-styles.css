@@ -141,15 +141,14 @@ header {
   text-align: center;
   font-family: 'Helvetica', 'sans-serif';
   text-transform: uppercase;
-  height: 100vh;
+  height: calc(100vh - 2rem);
   min-height: 500px;
   width: 100%;
   padding-top: 2.2rem;
   display: grid;
-  grid-template-rows: 1fr 1.5fr;
-  align-content: center;
+  grid-template-rows: 1fr .5fr 1fr;
   align-items: end;
-  /* justify-content: center; */
+  justify-items: center;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;;
@@ -164,8 +163,15 @@ h1 {
 #header-desc {
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 1.2rem;
+  font-weight: lighter;
   align-self: start
+}
+
+#downArrow {
+  transform: rotate(90deg);
+  cursor: inherit;
+  align-self: center;
 }
 
 
@@ -322,6 +328,15 @@ footer {
 
 /* screen >= 700px */
 @media screen and (min-width: 700px) {
+
+  header, header * {
+    border: solid red 2px;
+  }
+
+  #header-desc {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
   .photos {
     width: 600px;
     height: 600px;
