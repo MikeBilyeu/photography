@@ -4,6 +4,7 @@ html, body {
   font-family: Helvetica, sans-serif;
   background-color: #101010;
   overflow-x: hidden;
+  font-size: 20px;
 }
 
 .removeMobile {
@@ -354,8 +355,8 @@ footer {
     transform-origin: bottom left;
     justify-self: start;
     align-self: center;
-    top: -2rem;
-    position: relative;
+    /* top: 5rem;
+    position: relative; */
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: .3rem;
