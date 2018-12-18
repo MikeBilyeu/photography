@@ -62,7 +62,7 @@ nav {
 
 .hamburgerLine {
   stroke: #C9C9C9 !important;
-  transition: all .1s ease-in-out;
+  transition: transform .1s ease-in-out;
 }
 
 .changeColor {
@@ -294,7 +294,7 @@ footer {
   nav {
     grid-template-columns: 6fr 1fr 1fr;
     background-color: #E3910F;
-    padding: 0 .5rem;
+    padding: 0 1.5rem;
   }
 
   #nav-name {
@@ -329,13 +329,40 @@ footer {
 /* screen >= 700px */
 @media screen and (min-width: 700px) {
 
-  header, header * {
-    border: solid red 2px;
+  nav {
+    padding: 0 3rem;
+  }
+
+  header {
+    grid-template-areas:
+      'a a a'
+      'b b b'
+      'b b b'
+      'c c c';
+      padding: .5rem;
+      box-sizing: border-box;
+  }
+
+  h1 {
+    grid-area: b;
+    justify-self: end;
   }
 
   #header-desc {
-    font-size: 1.5rem;
+    grid-area: a;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    justify-self: start;
+    align-self: center;
+    top: -2rem;
+    position: relative;
+    font-size: 1rem;
     font-weight: bold;
+    letter-spacing: .3rem;
+  }
+
+  #downArrow {
+    grid-area: c;
   }
   .photos {
     width: 600px;
