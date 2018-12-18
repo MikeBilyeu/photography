@@ -2,6 +2,7 @@
 html, body {
   margin: 0 auto;
   font-family: Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .removeMobile {
@@ -315,7 +316,7 @@ footer {
   nav {
     grid-template-columns: 6fr 1fr 1fr;
     background-color: #ffffff;
-    padding: 0 .5rem;
+    padding: 0 1.5rem;
   }
 
   #nav-name {
@@ -345,6 +346,10 @@ footer {
 
 /* screen >= 700px */
 @media screen and (min-width: 700px) {
+
+  nav {
+    padding: 0 3rem;
+  }
 
   footer {
     grid-template-columns: 1fr 1fr 1fr;
