@@ -155,8 +155,22 @@ h1 {
   transform: rotate(90deg);
   cursor: inherit;
   align-self: center;
+  animation: bounce .7s ease-in 0s infinite alternate;
 }
 
+@keyframes bounce {
+  from {
+    transform: translateY(0px) rotate(90deg) ;
+    opacity: 1;
+
+
+   }
+  to   {
+    transform: translateY(5px) rotate(90deg) scale(1);
+    opacity: .1;
+
+   }
+}
 
 #header-slant {
   width: 100%;;
