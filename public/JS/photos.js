@@ -47,17 +47,15 @@ window.onload = () => {
     }
   ]
 
-  function toggleMenu() {
-    let topLine = document.getElementById('topLine'),
-    middleLine = document.getElementById('middleLine'),
-    bottomLine = document.getElementById('bottomLine'),
-    menu = document.getElementById('menu'),
-    body = document.body,
-    menuLink = document.querySelectorAll('.menuLink');
 
+  let topLine = document.getElementById('topLine'),
+  bottomLine = document.getElementById('bottomLine'),
+  menu = document.getElementById('menu'),
+  body = document.body,
+  menuLink = document.querySelectorAll('.menuLink');
+
+  function toggleMenu() {
     topLine.classList.toggle('slideLeft');
-    middleLine.classList.toggle('changeColor')
-    bottomLine.classList.toggle('slideRight');
     menu.classList.toggle('slideLeft');
     menuLink.forEach((elem) => {
       elem.classList.toggle('delaySlide');
@@ -65,14 +63,9 @@ window.onload = () => {
     body.classList.toggle('preventScroll');
   }
 
-
   document.getElementById('hamburger').onclick = () => toggleMenu();
 
   document.getElementById('menuHome').onclick = () => toggleMenu();
-
-  // document.getElementById('menuContact').onclick = () => toggleMenu();
-
-  // document.getElementById('menuPortraits').onclick = () => toggleMenu();
 
   if(screen.width < 900) {
 

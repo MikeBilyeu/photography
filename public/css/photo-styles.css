@@ -61,7 +61,6 @@ nav {
 }
 
 .hamburgerLine {
-  stroke: #C9C9C9 !important;
   transition: transform .1s ease-in-out;
 }
 
@@ -113,9 +112,6 @@ nav {
   transform: translateX(0px);
 }
 
-.slideRight {
-  transform: translateX(100%);
-}
 
 header {
   background-color: #1F1F1F;
@@ -300,14 +296,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2.5fr;
     text-decoration: none;
-  }
-
-  .hamburgerLine {
-    stroke: #363636 !important;
-  }
-
-  .changeColor {
-    stroke: #F7F7F7 !important;
   }
 
   #header-desc {

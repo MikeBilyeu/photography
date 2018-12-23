@@ -10,7 +10,6 @@ window.onload = () => {
     menuLink = document.querySelectorAll('.menuLink');
 
     topLine.classList.toggle('slideLeft');
-    middleLine.classList.toggle('changeColor')
     bottomLine.classList.toggle('slideRight');
     menu.classList.toggle('slideLeft');
     menuLink.forEach((elem) => {
