@@ -255,77 +255,60 @@ header {
 }
 
 footer {
-  background-color: #242424;
+  background-color: #1F1F1F;
+  color: #FFFF;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
   place-items: center;
-  color: #C9C9C9;
+  padding-top: 1rem;
+  padding-bottom: .8rem;
+  grid-gap: 1rem;
 }
 
-.footer-header {
-  margin: 0 0 1rem 0;
-  text-align: center;
-  letter-spacing: .1rem;
+#footer-logo {
+  display: grid;
+  padding-bottom: .5rem;
+  border-bottom: solid #C30000 .1rem;
 }
 
-.footer-cont {
-  width: 9rem;
-  display: inline-grid;
+#first-name-ft {
+  padding: 0;
+  margin: 0;
+  justify-self: start;
 }
 
-#footer-contact {
-  text-align: center;
+#last-name-ft {
+  padding: 0;
+  margin: 0;
+  font-size: 3.1rem;
+  text-transform: uppercase;
 }
 
-.footer-link {
-  color: #C9C9C9;
-  text-decoration: none;
+#footer-photography {
+  padding: 0;
+  margin: 0;
+  justify-self: end;
+}
+
+#copyright-container {
+  display: grid;
+  place-items: center;
+  margin-top: 1rem;
+}
+
+#copyright {
+  padding: 0;
+  margin: 0;
   font-size: .7rem;
-  letter-spacing: .05rem;
-  font-weight: lighter;
-  margin: .2rem auto;
-  padding: .1rem;
+  color: #4E4E4E;
 }
 
-#insta-footer-link {
-  line-height: 1rem;
-  height: 1.4rem;
+#privacy {
+  padding: 0;
+  margin: 0;
+  font-size: .7rem;
+  color: #4E4E4E;
 }
-
- #footer-website-links {
-  border-left: solid #707070 .1px;
-  border-right: solid #707070 .1px;
-  padding: 1rem 2rem;
-  display: inline-grid;
-}
-
- #footer-social {
-  text-align: center;
-}
-
-#footer-website {
-  order: 0
-}
-
-#footer-website-links {
-  border: none;
-}
-
-#footer-social {
-  order: 1;
-  border-top: solid #707070  1px;
-  border-bottom: solid #707070  1px;
-}
-
-#footer-contact {
-  order: 2;
-}
-
-.footer-cont {
-  padding: 2rem;
-}
-
-
 
 /* screen >= 500px */
 @media screen and (min-width: 500px) {
@@ -369,36 +352,6 @@ footer {
     height: 600px;
   }
 
-  footer {
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-    padding: 2rem 1rem;
-  }
-
-  .footer-cont {
-    height: 95%;
-    padding: 0;
-  }
-
-  #footer-contact {
-    order: 1
-  }
-
-  #footer-website {
-      order: 2
-  }
-
-   #footer-website-links {
-    border-left: solid #707070 .1px;
-    border-right: solid #707070 .1px;
-    padding: 1rem 1rem;
-  }
-
-   #footer-social {
-    order: 3;
-    border: none;
-  }
-
 }
 
 /* screen >= 1200px */
@@ -416,11 +369,4 @@ footer {
     font-size: 2.7rem;
   }
 
-  #footer-contact {
-    justify-self: end;
-  }
-
-  #footer-social {
-   justify-self: start;
- }
 }
