@@ -265,10 +265,15 @@ footer {
   grid-gap: 1rem;
 }
 
+#home-ft {
+  text-decoration: none;
+}
+
 #footer-logo {
   display: grid;
   padding-bottom: .5rem;
   border-bottom: solid #C30000 .1rem;
+  color: white;
 }
 
 #first-name-ft {
