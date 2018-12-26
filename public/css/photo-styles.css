@@ -95,9 +95,8 @@ nav {
 }
 
 #photo-container {
-  margin: 1rem;
-  box-sizing: border-box;
-  height: 90vh;
+  padding: .5rem 0 2rem 0;
+  height: 100vh;
   display: grid;
   grid-template-areas:
   'a b c';
@@ -107,8 +106,8 @@ nav {
 
 .photos {
   grid-area: b;
-  height: 24rem;
-  width: 34rem;
+  width: 15rem;
+  height: 15rem;
   object-fit: contain;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -198,6 +197,11 @@ footer {
     padding: 0 1.5rem;
   }
 
+  .photos {
+    width: 20rem;
+    height: 20rem;
+  }
+
 }
 
 /* screen >= 700px */
@@ -207,10 +211,15 @@ footer {
     padding: 0 3rem;
   }
 
+  .photos {
+    width: 28rem;
+    height: 28rem;
+  }
 
 }
 
 /* screen >= 1200px */
 @media screen and (min-width: 1200px) {
+
 
 }
