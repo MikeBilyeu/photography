@@ -18,38 +18,15 @@ nav {
   justify-items: start;
   padding: 0 .2rem;
   box-sizing: border-box;
-  background-color: #1F1F1F;
 }
 
 #nav-name {
   box-sizing: border-box;
-  color: #C9C9C9;
+  color: #1F1F1F;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
-}
-
-.insta-icon {
-  width: 1.3rem;
-}
-
-.insta-container {
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  text-decoration: none;
-}
-
-#insta-nav {
-  display: none;
-}
-
-.insta-text {
-  font-weight: bold;
-  text-align: center;
-  font-size: .8rem;
-  color: #363636;
-  margin: .3rem 0 0 0;
 }
 
 #hamburger {
@@ -60,8 +37,7 @@ nav {
 }
 
 .hamburgerLine {
-  stroke: #C9C9C9 !important;
-  transition: all .1s ease-in-out;
+  transition: transform .1s ease-in-out;
 }
 
 .changeColor {
@@ -94,9 +70,8 @@ nav {
   -moz-user-select: none;
   user-select: none;
   transform: translateX(500%);
-  transition: transform .2s ease .1s;
+  transition: transform .1s ease .1s;
 }
-
 
 #insta-link {
   font-weight: bold;
@@ -305,24 +280,7 @@ footer {
 @media screen and (min-width: 500px) {
 
   nav {
-    grid-template-columns: 6fr 1fr 1fr;
-    background-color: #ffffff;
     padding: 0 1.5rem;
-  }
-
-  #nav-name {
-    color: #363636;
-  }
-
-  #insta-nav {
-    display: grid;
-    justify-self: end;
-  }
-
-  .insta-container {
-    display: grid;
-    grid-template-columns: 1fr 2.5fr;
-    text-decoration: none;
   }
 
   .hamburgerLine {
@@ -349,7 +307,7 @@ footer {
     width: 40%;
     min-width: 300px;
     min-height: 500px;
-    margin: 1.4rem auto 13rem auto;
+    margin: 1.4rem auto 5rem auto;
     border: solid #363636 1px;
   }
 }
