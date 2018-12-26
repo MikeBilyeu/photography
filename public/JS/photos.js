@@ -56,6 +56,7 @@ window.onload = () => {
 
   function toggleMenu() {
     topLine.classList.toggle('slideLeft');
+    bottomLine.classList.toggle('changeColor');
     menu.classList.toggle('slideLeft');
     menuLink.forEach((elem) => {
       elem.classList.toggle('delaySlide');

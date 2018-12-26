@@ -104,6 +104,10 @@ nav {
   overflow: hidden;
 }
 
+.changeColor {
+  stroke: white !important;
+}
+
 .slideLeft {
   transform: translateX(-100%);
 }
