@@ -233,10 +233,11 @@ textarea:-moz-placeholder { /* Firefox 18- */
   padding: .3rem;
   border-radius: .1rem;
   justify-self: start;
+  cursor: pointer;
 }
 
 #submit:hover {
-  background-color: #333333;
+  opacity: .9;
 }
 
 footer {
