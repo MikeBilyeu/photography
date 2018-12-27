@@ -131,9 +131,9 @@ h1 {
 #contact-container {
   width: 100%;
   min-width: 300px;
-  max-width: 400px;
+  max-width: 500px;
   min-height: 500px;
-  margin: 2rem auto 13rem auto;
+  margin: 3rem auto ;
   border: none;
   border-radius: .1rem;
   color: #363636;
@@ -224,6 +224,8 @@ footer {
   color: #FFFF;
   width: 100%;
   display: grid;
+  position: relative;
+  bottom: -10rem;
   place-items: center;
   padding-top: 1rem;
   padding-bottom: .8rem;
@@ -320,7 +322,6 @@ footer {
     width: 40%;
     min-width: 300px;
     min-height: 500px;
-    margin: 1.4rem auto 5rem auto;
     border: solid #363636 1px;
   }
 }
