@@ -111,7 +111,7 @@ window.onload = () => {
 
   document.getElementById('menuHome').onclick = () => toggleMenu();
 
-  if(screen.width < 900) {
+  if(screen.width < 500) {
 
     function addImg(src, des) {
       let photograph = document.createElement('img');
@@ -127,13 +127,6 @@ window.onload = () => {
     addImg(photos[2].src, photos[2].des);
     addImg(photos[3].src, photos[3].des);
     addImg(photos[4].src, photos[4].des);
-
-    document.getElementById('imgButton').onclick = () => {
-      let img = document.createElement('img');
-      img.setAttribute("src", photos[0].src);
-      img.setAttribute("class", "photos");
-      document.getElementById('photo-container').appendChild(img);
-    }
 
   } else if(screen.width > 900) {
 
