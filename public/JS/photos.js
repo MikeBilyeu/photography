@@ -130,7 +130,12 @@ window.onload = () => {
 
   } else if(screen.width > 900) {
 
-    let clicknumber = 0;
+
+    let clicknumber = Math.floor(Math.random() * (photos.length - 1));
+
+    document.getElementById('photo').setAttribute("src", photos[clicknumber].src);
+    photoDescription.innerHTML = photos[clicknumber].des;
+
 
     //click on left or right arrow + or - from the click number
     //set the src of the img to the click number and load img124
