@@ -219,6 +219,13 @@ footer {
     padding: 0 1.5rem;
   }
 
+  .photos {
+    width: 43vw;
+    min-width: 400px;
+    height: 43vw;
+    min-height: 400px;
+  }
+
 }
 
 /* screen >= 700px */
@@ -228,12 +235,8 @@ footer {
     padding: 0 3rem;
   }
 
-  .photos {
-    width: 80vw;
-    height: 80vw;
-  }
-
 }
+
 
 /* screen >= 1200px */
 @media screen and (min-width: 1200px) {
