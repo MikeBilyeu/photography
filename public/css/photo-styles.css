@@ -99,7 +99,8 @@ nav {
   height: 100vh;
   display: grid;
   grid-template-areas:
-  'a b c';
+  'a b c'
+  '. d .';
   place-items: center;
   box-sizing: border-box;
 }
@@ -112,6 +113,13 @@ nav {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+}
+
+#photo-description {
+  align-self: start;
+  grid-area: d;
+  font-size: .65rem;
+  color: #4E4E4E;
 }
 
 .arrow {
