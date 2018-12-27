@@ -241,6 +241,9 @@ footer {
   padding: 0;
   margin: 0;
   justify-self: start;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 #last-name-ft {
@@ -248,12 +251,18 @@ footer {
   margin: 0;
   font-size: 3.1rem;
   text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 #footer-photography {
   padding: 0;
   margin: 0;
   justify-self: end;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 #copyright-container {
