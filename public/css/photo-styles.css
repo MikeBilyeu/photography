@@ -107,7 +107,6 @@ nav {
 
 .photos {
   grid-area: b;
-  border: solid red 1px;
   width: 15rem;
   height: 15rem;
   object-fit: contain;

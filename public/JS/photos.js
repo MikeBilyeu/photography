@@ -6,42 +6,42 @@ window.onload = () => {
   const photos = [
     {
       src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto:best,w_1500,ar_3:2,c_scale,f_auto/v1544490872/Portraits/skate/img124-2-2.jpg',
-      des: 'Jahmir Brown ssbsts',
+      des: 'Jahmir Brown - Switch Bs Tail Slide | Philadelphia, Pa. 2017',
       name: 'Jahmir Brown',
       location: 'Philadelphia',
       date: ''
     },
     {
       src: `${portraitURl}img028.jpg`,
-      des: 'Kevin Bilyeu Nollie fs flip trash can',
+      des: 'Kevin Bilyeu - Nollie Fs Flip | Philadelphia, Pa. 2017',
       name:'Kevin Bilyeu',
       location: 'Philadelphia',
       date: ''
     },
     {
       src: `${portraitURl}img062.jpg`,
-      des: 'Paris Summerville ollie north',
+      des: 'Paris Summerville - Ollie North | Philadelphia, Pa. 2017',
       name:'Paris Summerville',
       location: 'Philadelphia',
       date: ''
     },
     {
       src: `${portraitURl}img115.jpg`,
-      des: 'Kevin Bilyeu bs tail',
+      des: 'Kevin Bilyeu - Bs Tail Slide | Philadelphia, Pa. 2017',
       name:'Kevin Bilyeu',
       location: 'Philadelphia',
       date: ''
     },
     {
       src: `${portraitURl}img142_copy.jpg`,
-      des: 'Kevin Bilyeu Nollie 5-0 rail',
+      des: 'Kevin Bilyeu - Nollie 5-0 | Philadelphia, Pa. 2017',
       name:'Kevin Bilyeu',
       location: 'Philadelphia',
       date: ''
     },
     {
       src: `${portraitURl}img118-2.jpg`,
-      des: 'Jahmir Brown sw crook',
+      des: 'Jahmir Brown - Switch Crook | Washington, D.C. 2017',
       name: 'Jahmir Brown',
       location: 'DC',
       date: ''
@@ -53,7 +53,8 @@ window.onload = () => {
   bottomLine = document.getElementById('bottomLine'),
   menu = document.getElementById('menu'),
   body = document.body,
-  menuLink = document.querySelectorAll('.menuLink');
+  menuLink = document.querySelectorAll('.menuLink'),
+  photoDescription = document.getElementById('photo-description');
 
   function toggleMenu() {
     topLine.classList.toggle('slideLeft');
@@ -77,6 +78,7 @@ window.onload = () => {
       photograph.setAttribute('class', 'photos');
       photograph.setAttribute("alt", des);
 
+      photoDescription.innerHTML = des;
       document.getElementById('photo-container').appendChild(photograph);
     }
 
@@ -105,6 +107,7 @@ window.onload = () => {
       (clicknumber < photos.length - 1) ? clicknumber++ : clicknumber = 0;
 
       document.getElementById('photo').setAttribute("src", photos[clicknumber].src);
+      photoDescription.innerHTML = photos[clicknumber].des;
 
     }
 
@@ -112,6 +115,7 @@ window.onload = () => {
       (clicknumber > 0) ? clicknumber-- : clicknumber = photos.length-1;
 
       document.getElementById('photo').setAttribute("src", photos[clicknumber].src);
+      photoDescription.innerHTML = photos[clicknumber].des;
 
     }
 
