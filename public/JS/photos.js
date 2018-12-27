@@ -1,3 +1,4 @@
+'use strict';
 //wait for page to load all content befod
 window.onload = () => {
   const landscapURl = 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto:goodw,w_1500,ar_3:2,c_scale,f_auto/v1544490872/Portraits/skate/';
