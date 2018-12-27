@@ -1,8 +1,6 @@
 'use strict';
 //wait for page to load all content befod
 window.onload = () => {
-  const landscapURl = 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto:goodw,w_1500,ar_3:2,c_scale,f_auto/v1544490872/Portraits/skate/';
-  const portraitURl = 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto:good,w_800,ar_2:3,c_scale,f_auto/v1544490872/Portraits/skate/';
   const photos = [
     {
       src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto:best,w_1500,ar_3:2,c_scale,f_auto/v1544490872/Portraits/skate/img124-2-2.jpg',
@@ -12,35 +10,78 @@ window.onload = () => {
       date: ''
     },
     {
-      src: `${portraitURl}img028.jpg`,
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545938970/Portraits/skate/img100.jpg',
+      des: 'Kevin Bilyeu - Switch Tail Slide | New York, N.Y. 2017',
+      name: 'Kevin Bilyeu',
+      location: 'New York',
+      date: ''
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545939311/Portraits/skate/img125.jpg',
+      des: 'Tyler Dietterich - 5-0 stall | Philadelphia, Pa. 2018',
+      name: 'Tyler Dietterich',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_30/v1545938032/Portraits/skate/img143.jpg',
+      des: 'Chris Falo - Fs 180 Switch 5-0 | Philadelphia, Pa. 2018',
+      name: 'Chris Falo',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545940310/Portraits/skate/img089.jpg',
+      des: 'Kevin Bilyeu - Bs Nosegrind | Philadelphia, Pa. 2017',
+      name: 'Kevin Bilyeu',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545940738/Portraits/skate/img074.jpg',
+      des: 'Kevin & AJ | Philadelphia, Pa. 2017',
+      name: 'Kevin Bilyeu AJ Mac',
+      location: 'Philadelphia',
+      date: ''
+
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_60/v1545938366/Portraits/skate/img096.jpg',
+      des: 'Paris Summerville | Philadelphia, Pa. 2017',
+      name: 'Paris Summerville',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
+      src: `https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545941332/img028.jpg`,
       des: 'Kevin Bilyeu - Nollie Fs Flip | Philadelphia, Pa. 2017',
       name:'Kevin Bilyeu',
       location: 'Philadelphia',
       date: ''
     },
     {
-      src: `${portraitURl}img062.jpg`,
+      src: `https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545941474/img062.jpg`,
       des: 'Paris Summerville - Ollie North | Philadelphia, Pa. 2017',
       name:'Paris Summerville',
       location: 'Philadelphia',
       date: ''
     },
     {
-      src: `${portraitURl}img115.jpg`,
+      src: `https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545940032/Portraits/skate/img115-3.jpg`,
       des: 'Kevin Bilyeu - Bs Tail Slide | Philadelphia, Pa. 2017',
       name:'Kevin Bilyeu',
       location: 'Philadelphia',
       date: ''
     },
     {
-      src: `${portraitURl}img142_copy.jpg`,
+      src: `https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545941595/img142.jpg`,
       des: 'Kevin Bilyeu - Nollie 5-0 | Philadelphia, Pa. 2017',
       name:'Kevin Bilyeu',
       location: 'Philadelphia',
       date: ''
     },
     {
-      src: `${portraitURl}img118-2.jpg`,
+      src: `https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545941696/img118-2.jpg`,
       des: 'Jahmir Brown - Switch Crook | Washington, D.C. 2017',
       name: 'Jahmir Brown',
       location: 'DC',
@@ -118,11 +159,5 @@ window.onload = () => {
       photoDescription.innerHTML = photos[clicknumber].des;
 
     }
-
-
-
   }
-
-
-
 }
