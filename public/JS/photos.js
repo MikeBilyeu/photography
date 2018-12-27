@@ -3,7 +3,7 @@
 window.onload = () => {
   const photos = [
     {
-      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto:best,w_1500,ar_3:2,c_scale,f_auto/v1544490872/Portraits/skate/img124-2-2.jpg',
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545941985/img124-2-2.jpg',
       des: 'Jahmir Brown - Switch Bs Tail Slide | Philadelphia, Pa. 2017',
       name: 'Jahmir Brown',
       location: 'Philadelphia',
