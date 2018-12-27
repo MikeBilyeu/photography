@@ -107,6 +107,7 @@ nav {
 
 .photos {
   grid-area: b;
+  border: solid red 1px;
   width: 15rem;
   height: 15rem;
   object-fit: contain;
@@ -120,6 +121,9 @@ nav {
   grid-area: d;
   font-size: .65rem;
   color: #4E4E4E;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .arrow {
@@ -229,8 +233,10 @@ footer {
   }
 
   .photos {
-    width: 28rem;
-    height: 28rem;
+    width: 80vh;
+    height: 80vh;
+    max-width: 28rem;
+    max-height: 28rem;
   }
 
 }
