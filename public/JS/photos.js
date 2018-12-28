@@ -111,10 +111,10 @@ window.onload = () => {
 
   document.getElementById('menuHome').onclick = () => toggleMenu();
 
-  if(screen.width < 500) {
+  if(false) {
 
-    document.getElementById('leftArrow').classList.add('removeMobile');
-    document.getElementById('rightArrow').classList.add('removeMobile');
+    // document.getElementById('leftArrow').classList.add('removeMobile');
+    // document.getElementById('rightArrow').classList.add('removeMobile');
 
     function addImg(src, des) {
       let photograph = document.createElement('img');
