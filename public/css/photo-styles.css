@@ -37,20 +37,12 @@ nav {
   transition: opacity .1s ease-in-out;
 }
 
-#nav-name:hover {
-  opacity: .8;
-}
-
 #hamburger {
   justify-self: end;
   width: 1.5rem;
   cursor: pointer;
   z-index: 7;
   transition: opacity .1s ease-in-out;
-}
-
-#hamburger:hover {
-  opacity: .8;
 }
 
 .hamburgerLine {
