@@ -141,6 +141,11 @@ nav {
   width: 2rem;
   cursor: pointer;
   display: inherit;
+  transition: opacity .1s ease-in-out;
+}
+
+.arrow:hover {
+  opacity: .7;
 }
 
 #leftArrow {
