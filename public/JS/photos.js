@@ -10,6 +10,27 @@ window.onload = () => {
       date: ''
     },
     {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545964288/img052.jpg',
+      des: 'AJ Mac | Philadelphia, Pa. 2017',
+      name: 'AJ Mac',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545964473/img046.jpg',
+      des: 'Kevin Bilyeu - Kickflip | Philadelphia, Pa. 2017',
+      name: 'Kevin Bilyeu',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545963599/img061.jpg',
+      des: 'Kevin, Paris, Chris, AJ | Philadelphia, Pa. 2017',
+      name: 'Kevin, Paris, Chris, AJ',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
       src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545941985/img124-2-2.jpg',
       des: 'Jahmir Brown - Switch Bs Tail Slide | Philadelphia, Pa. 2017',
       name: 'Jahmir Brown',
@@ -85,6 +106,13 @@ window.onload = () => {
       des: 'Jahmir Brown - Switch Crook | Washington, D.C. 2017',
       name: 'Jahmir Brown',
       location: 'DC',
+      date: ''
+    },
+    {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545963993/img109.jpg',
+      des: 'Kevin Bilyeu - Ollie | Philadelphia, Pa. 2017',
+      name: 'Kevin Bilyeu',
+      location: 'Philadelphia',
       date: ''
     }
   ]
