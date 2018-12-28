@@ -8,7 +8,7 @@ html, body {
 }
 
 .removeMobile {
-  display: none;
+  display: none !important;
 }
 
 nav {
@@ -87,7 +87,7 @@ nav {
   transform: translateX(0px);
 }
 
-#photo-container {
+.photo-container {
   padding: .5rem 0 2rem 0;
   min-height: 100vh;
   display: grid;
@@ -98,12 +98,32 @@ nav {
   box-sizing: border-box;
 }
 
+.mobile-photo-container {
+  padding: .5rem 0 2rem 0;
+  min-height: 100vh;
+  display: grid;
+  grid-gap: 3rem;
+  place-items: center;
+  box-sizing: border-box;
+}
+
 .photos {
   grid-area: b;
   width: 80vw;
   height: 80vw;
   max-width: 55rem;
   max-height: 55rem;
+  object-fit: contain;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.mobile-photos {
+  width: 90vw;
+  height: 90vw;
+  max-width: 20rem;
+  max-height: 20rem;
   object-fit: contain;
   -webkit-user-select: none;
   -moz-user-select: none;

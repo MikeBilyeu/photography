@@ -111,27 +111,35 @@ window.onload = () => {
 
   document.getElementById('menuHome').onclick = () => toggleMenu();
 
-  if(false) {
+  if(screen.width < 500) {
 
-    // document.getElementById('leftArrow').classList.add('removeMobile');
-    // document.getElementById('rightArrow').classList.add('removeMobile');
+    document.getElementById('leftArrow').classList.add('removeMobile');
+    document.getElementById('rightArrow').classList.add('removeMobile');
+    document.getElementById('photo').classList.add('removeMobile');
+    document.getElementById('photo-description').classList.add('removeMobile');
+    document.getElementById('photo-container').classList.remove('photo-container');
+    document.getElementById('photo-container').classList.add('mobile-photo-container');
 
     function addImg(src, des) {
       let photograph = document.createElement('img');
       photograph.setAttribute("src", src);
-      photograph.setAttribute('class', 'photos');
+      photograph.setAttribute('class', 'mobile-photos');
       photograph.setAttribute("alt", des);
 
       photoDescription.innerHTML = des;
+
       document.getElementById('photo-container').appendChild(photograph);
     }
 
-    addImg(photos[1].src, photos[1].des);
-    addImg(photos[2].src, photos[2].des);
-    addImg(photos[3].src, photos[3].des);
-    addImg(photos[4].src, photos[4].des);
+    (function loadAllPhotos() {
+      for(let photo of photos) {
+        addImg(photo.src, photo.des);
 
-  } else if(true) {
+      }
+    })();
+
+
+  } else if(screen.width >= 500) {
 
 
     let clicknumber = Math.floor(Math.random() * (photos.length - 1));
