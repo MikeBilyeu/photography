@@ -71,13 +71,6 @@ nav {
   transition: transform .2s ease .1s;
 }
 
-#insta-link {
-  font-weight: bold;
-  text-align: center;
-  font-size: .8rem;
-  margin: .3rem 0 0 0;
-}
-
 .preventScroll {
   overflow: hidden;
 }

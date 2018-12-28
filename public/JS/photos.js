@@ -113,6 +113,9 @@ window.onload = () => {
 
   if(screen.width < 500) {
 
+    document.getElementById('leftArrow').classList.add('removeMobile');
+    document.getElementById('rightArrow').classList.add('removeMobile');
+
     function addImg(src, des) {
       let photograph = document.createElement('img');
       photograph.setAttribute("src", src);
