@@ -131,7 +131,7 @@ window.onload = () => {
     addImg(photos[3].src, photos[3].des);
     addImg(photos[4].src, photos[4].des);
 
-  } else if(screen.width > 900) {
+  } else if(true) {
 
 
     let clicknumber = Math.floor(Math.random() * (photos.length - 1));
