@@ -1,8 +1,13 @@
 /* mobile first */
 html, body {
+  width: 100%;
   margin: 0 auto;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+}
+
+.preventScroll {
+  position: fixed;
 }
 
 .removeMobile {
@@ -78,10 +83,6 @@ nav {
   text-align: center;
   font-size: .8rem;
   margin: .3rem 0 0 0;
-}
-
-.preventScroll {
-  overflow: hidden;
 }
 
 .changeColor {

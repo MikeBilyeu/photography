@@ -2,9 +2,14 @@
 
 html, body {
   margin: 0 auto;
+  width: 100%;
   font-family: Helvetica, sans-serif;
   overflow-x: hidden;
   font-size: 20px;
+}
+
+.preventScroll {
+  position: fixed !important;
 }
 
 .removeMobile {
@@ -81,9 +86,7 @@ nav {
   transition: transform .2s ease .1s;
 }
 
-.preventScroll {
-  overflow: hidden;
-}
+
 
 .changeColor {
   stroke: white !important;
