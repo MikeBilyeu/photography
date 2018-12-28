@@ -52,7 +52,7 @@ window.onload = () => {
       date: ''
     },
     {
-      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_30/v1545938032/Portraits/skate/img143.jpg',
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545938032/Portraits/skate/img143.jpg',
       des: 'Chris Falo - Fs 180 Switch 5-0 | Philadelphia, Pa. 2018',
       name: 'Chris Falo',
       location: 'Philadelphia',
@@ -67,7 +67,7 @@ window.onload = () => {
 
     },
     {
-      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_60/v1545938366/Portraits/skate/img096.jpg',
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545938366/Portraits/skate/img096.jpg',
       des: 'Paris Summerville | Philadelphia, Pa. 2017',
       name: 'Paris Summerville',
       location: 'Philadelphia',
