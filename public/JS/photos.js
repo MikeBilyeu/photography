@@ -3,6 +3,13 @@
 window.onload = () => {
   const photos = [
     {
+      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545940310/Portraits/skate/img089.jpg',
+      des: 'Kevin Bilyeu - Bs Nosegrind | Philadelphia, Pa. 2017',
+      name: 'Kevin Bilyeu',
+      location: 'Philadelphia',
+      date: ''
+    },
+    {
       src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545941985/img124-2-2.jpg',
       des: 'Jahmir Brown - Switch Bs Tail Slide | Philadelphia, Pa. 2017',
       name: 'Jahmir Brown',
@@ -27,13 +34,6 @@ window.onload = () => {
       src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_30/v1545938032/Portraits/skate/img143.jpg',
       des: 'Chris Falo - Fs 180 Switch 5-0 | Philadelphia, Pa. 2018',
       name: 'Chris Falo',
-      location: 'Philadelphia',
-      date: ''
-    },
-    {
-      src: 'https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545940310/Portraits/skate/img089.jpg',
-      des: 'Kevin Bilyeu - Bs Nosegrind | Philadelphia, Pa. 2017',
-      name: 'Kevin Bilyeu',
       location: 'Philadelphia',
       date: ''
     },
