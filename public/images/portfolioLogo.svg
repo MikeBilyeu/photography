@@ -1,15 +1,15 @@
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.4 75.4">
   <style>
     .st0{fill:#404040}.st1{font-family:&apos;MyriadPro-Bold&apos;}.st2{font-size:21px}.st3{fill:none;stroke:#2b9bed;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
   </style>
-  <text transform="translate(285.9 324)" class="st0 st1 st2">
+  <text transform="translate(8.4 23)" class="st0 st1 st2">
     Mike
   </text>
-  <path class="st3" d="M376.9 302H427v69H286M278.5 326.5v-24H294"/>
-  <text transform="translate(286.3 364)" class="st0 st1" font-size="50">
+  <path class="st3" d="M99.4 1h50.1v69H8.5M1 25.5v-24h15.5"/>
+  <text transform="translate(8.8 63)" class="st0 st1" font-size="50">
     Bilyeu
   </text>
-  <text transform="translate(433 363.5)" class="st0 st1 st2">
+  <text transform="translate(155.5 62.5)" class="st0 st1 st2">
     .com
   </text>
 </svg>
