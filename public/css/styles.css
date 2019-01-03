@@ -1,3 +1,139 @@
+* {
+  border: solid red 1px;
+}
 
+html {
+  color: #404040;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font-family: heebo, sans-serif;
+}
+
+.link {
+  color: #A23BD9;
+}
+
+.blue-text {
+  color: #2B9BED !important;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  font-family: myriad-pro, sans-serif;
+  background-image: url("https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1546455460/white-brick-hero.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+nav {
+  align-self: start;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+nav #mikeBilyeuLogo {
+  width: 7rem;
+  justify-self: start;
+}
+nav #hamburger {
+  width: 2rem;
+  justify-self: end;
+}
+
+#name-hero, #about-hero {
+  display: grid;
+  place-items: center;
+}
+#name-hero .hero-text, #about-hero .hero-text {
+  font-size: 1rem;
+}
+#name-hero #lets-talk, #about-hero #lets-talk {
+  margin-top: 0.5rem;
+}
+#name-hero #lets-talk .link, #about-hero #lets-talk .link {
+  font-size: 1.4rem;
+}
+
+#about-hero #front-end {
+  font-size: 2.6rem;
+}
+
+.hero-text {
+  margin: 0;
+  padding: 0;
+}
+
+#scroll-down {
+  font-size: 0.5rem;
+  text-align: center;
+  color: #FFFFFF;
+  width: 5rem;
+  display: grid;
+  place-items: center;
+}
+
+#downArrow {
+  width: 1.5rem;
+}
+
+#about {
+  margin: 7rem 0;
+  display: grid;
+  place-items: center;
+  letter-spacing: 0.05rem;
+}
+#about .about-text {
+  margin: 0;
+  padding: 0;
+}
+#about #profile {
+  border-radius: 50%;
+  margin: 1rem 0;
+  width: 10rem;
+}
+#projects {
+  text-align: center;
+}
+
+#skills {
+  text-align: center;
+}
+#skills #skill-title {
+  margin: 0;
+  padding: 0;
+}
+#skills ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+form {
+  display: grid;
+  text-align: center;
+}
+form #contact {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: grid;
+  text-align: center;
+  background-color: #1F1F1F;
+  width: 100%;
+}
+footer #mikeBilyeuLogo-ft {
+  width: 6rem;
+}
 
 /*# sourceMappingURL=styles.css.map */

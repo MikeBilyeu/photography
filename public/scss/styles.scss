@@ -5,3 +5,154 @@ $white: #FFFFFF;
 $grey: #A7A7A7;
 $darkGrey: #404040;
 $black: #1F1F1F;
+
+* {
+  border: solid red 1px;
+}
+
+html {
+    color: $darkGrey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font-family: heebo, sans-serif;
+}
+.link {
+  color: $purple;
+}
+
+.blue-text {
+  color: $blue !important;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  font-family: myriad-pro, sans-serif;
+  background-image: url("https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1546455460/white-brick-hero.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+nav {
+  align-self: start;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  #mikeBilyeuLogo {
+    width: 7rem;
+    justify-self: start;
+  }
+  #hamburger {
+    width: 2rem;
+    justify-self: end;
+  }
+}
+
+#name-hero {
+  display: grid;
+  place-items: center;
+  .hero-text {
+    font-size: 1rem;
+  }
+  #lets-talk {
+    margin-top: .5rem;
+    .link {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+#about-hero {
+  @extend #name-hero;
+  #front-end {
+    font-size: 2.6rem;
+  }
+}
+
+.hero-text {
+  margin: 0;
+  padding: 0;
+}
+
+#scroll-down {
+  font-size: .5rem;
+  text-align: center;
+  color: $white;
+  width: 5rem;
+  display: grid;
+  place-items: center;
+}
+
+#downArrow {
+  width: 1.5rem;
+}
+
+
+#about {
+  margin: 7rem 0;
+  display: grid;
+  place-items: center;
+  letter-spacing: .05rem;
+  .about-text {
+    margin: 0;
+    padding: 0;
+  }
+  #profile {
+    border-radius: 50%;
+    margin: 1rem 0;
+    width: 10rem;
+  }
+  #about-paragraph {
+
+  }
+}
+
+#projects {
+  text-align: center;
+}
+
+
+
+
+
+
+#skills {
+  text-align: center;
+  #skill-title {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+form {
+  display: grid;
+  text-align: center;
+  #contact {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+footer {
+  display: grid;
+  text-align: center;
+  background-color: $black;
+  width: 100%;
+  #mikeBilyeuLogo-ft {
+    width: 6rem;
+  }
+}

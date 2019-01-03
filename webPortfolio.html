@@ -8,9 +8,9 @@
   </head>
   <body>
     <header>
-      <img id='heroImage' src='https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1546455460/white-brick-hero.jpg' />
+      <!-- <img id='heroImage' src='https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1546455460/white-brick-hero.jpg' /> -->
       <nav>
-        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.4 75.4">
+        <svg id="mikeBilyeuLogo" class='nav-element' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.4 75.4">
           <style>
             .st0{fill:#404040}.st1{font-family:&apos;MyriadPro-Bold&apos;}.st2{font-size:21px}.st3{fill:none;stroke:#2b9bed;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
           </style>
@@ -25,54 +25,64 @@
             .com
           </text>
         </svg>
-        <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.5 20.3">
+        <svg id="hamburger" class='nav-element' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.5 20.3">
           <style>
             .st7{fill:none;stroke:#404040;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10}
           </style>
           <path class="st7" d="M1.5 1.5H77M1.5 18.8h52"/>
         </svg>
       </nav>
-      <h1>Hi, I'm Mike!</h1>
-      <h2>Need a Web Developer?</h2>
-      <h3>Let's Talk!</h3>
-      <h2>Front-End</h2>
-      <h3>Web Developer</h3>
-      <h3><span>+</span> Designer</h3>
-      <a>Scroll Down
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.3 40.7">
-        <path fill="none" stroke="#363636" stroke-width="5" stroke-linecap="round"
+      <div id='name-hero'>
+        <h1 class='hero-text'>Hi, I'm Mike!</h1>
+        <h2 class='hero-text'>Are You Looking For a Web Developer?</h2>
+        <a id='lets-talk'><h2 class='hero-text link'>Let's Talk!</h2></a>
+      </div>
+      <div id='about-hero'>
+        <h2 id='front-end' class='hero-text blue-text'>Front-End</h2>
+        <h3 id='web-dev' class='hero-text'>Web Developer</h3>
+        <h3 id='designer' class='hero-text'><span class='blue-text'>+</span> Designer</h3>
+      </div>
+      <a id='scroll-down'>
+        Scroll Down
+        <svg id='downArrow' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.3 40.7">
+        <path fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"
         stroke-linejoin="round" stroke-miterlimit="10" d="M4.7 6.3l37.5 28 37.5-28"/>
-      </svg></a>
-      </header>
-      <section>
-        <img src='./public/images/profile.jpeg'/>
-        <h2>About Me</h2>
-        <h3>A Little Bit About Me</h3>
-        <p>
+        </svg>
+      </a>
+    </header>
+      <section id='about'>
+        <img id='profile' src='./public/images/profile.jpeg'/>
+        <h2 class='about-text'>About Me</h2>
+        <h3 class='about-text'>A Little Bit About Me</h3>
+        <p id='about-paragraph' class='about-text'>
           Yo, what’s up! My name is Mike Bilyeu, I’m 24 years old and currently
           live just outside of Philadelphia, Pa. I spend most of my time programming,
           studying web development, and freelancing. Being a web developer allows me
           to work on projects that I’m truly passionate about. Although I enjoy freelancing,
           I’m 100% open to the idea of a traditional salaried position as a front-end web developer!
-          Check out my <a>projects</a> below or on my <a>GitHub</a>.
+          Check out my <a class='link'>projects</a> below or on my <a class='link'>GitHub</a>.
           </p>
       </section>
-      <main>
+      <section id='projects'>
         <h2>Projects</h2>
-        <h3>Source Code on My <a>GitHub</a></h3>
+        <h3>Source Code on My <a class='link'>GitHub</a></h3>
 
-        <h3>Markdown Editor</h3>
-        <h4>A Markdown Editor Made with Reactjs & Markdownjs</h4>
+        <div id='p1' class='project'>
+          <h3 class='project-text'>Markdown Editor</h3>
+          <h4 class='project-text'>A Markdown Editor Made with Reactjs & Markdownjs</h4>
+        </div>
+        <div id='p2' class='project'>
+          <h3 class='project-text'>Comming Soon</h3>
+          <h4 class='project-text'>Sorry, More Projects Will Be Added Soon!</h4>
+        </div>
+        <div id='p3' class='project'>
+          <h3 class='project-text'>Comming Soon</h3>
+          <h4 class='project-text'>Sorry, More Projects Will Be Added Soon!</h4>
+        </div>
+      </section>
 
-        <h3>Comming Soon</h3>
-        <h4>Sorry, More Projects Will Be Added Soon!</h4>
-
-        <h3>Comming Soon</h3>
-        <h4>Sorry, More Projects Will Be Added Soon!</h4>
-      </main>
-
-      <section>
-        <h2>Skills</h2>
+      <section id='skills'>
+        <h2 id='skill-title'>Skills</h2>
         <ul>
           <li>JavaScript (ES6)</li>
           <li>JQuery</li>
@@ -87,7 +97,7 @@
         </ul>
       </section>
       <form>
-        <h2>Let's Talk</h2>
+        <h2 id='contact'>Let's Talk</h2>
         <h3>Want to Ask Me Something?</h3>
         <input type="text" name="name" value="" placeholder="Name" required>
         <input type="email" name="email" value="" placeholder="Email" required>
@@ -96,22 +106,21 @@
       </form>
       <footer>
         <a id='home-ft' href='#'>
-          <!-- <svg id="mikeBilyeuLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024">
+          <svg id="mikeBilyeuLogo-ft" class='nav-element' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.4 75.4">
             <style>
-              .st0{fill:#404040}.st1{font-family:&apos;MyriadPro-Bold&apos;}.st2{font-size:21px}
-              .st3{fill:none;stroke:#2b9bed;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+              .st0{fill:#404040}.st1{font-family:&apos;MyriadPro-Bold&apos;}.st2{font-size:21px}.st3{fill:none;stroke:#2b9bed;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
             </style>
-            <text transform="translate(285.9 324)" class="st0 st1 st2">
+            <text transform="translate(8.4 23)" class="st0 st1 st2">
               Mike
             </text>
-            <path class="st3" d="M376.9 302H427v69H286M278.5 326.5v-24H294"/>
-            <text transform="translate(286.3 364)" class="st0 st1" font-size="50">
+            <path class="st3" d="M99.4 1h50.1v69H8.5M1 25.5v-24h15.5"/>
+            <text transform="translate(8.8 63)" class="st0 st1" font-size="50">
               Bilyeu
             </text>
-            <text transform="translate(433 363.5)" class="st0 st1 st2">
+            <text transform="translate(155.5 62.5)" class="st0 st1 st2">
               .com
             </text>
-          </svg> -->
+          </svg>
         </a>
         <a href=''>
           <svg xmlns="http://www.w3.org/2000/svg" version="1" width='40' height="40" viewBox="0 0 612 612">
