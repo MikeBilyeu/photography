@@ -11,6 +11,14 @@ window.onload = () => {
   const photos = [
     {
       src:
+        "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1582927357/img150.jpg",
+      des: "1401 Jfk Blvd Municipal service Building | Philadelphia, Pa. 2019",
+      name: "1401",
+      location: "Philadelphia",
+      date: ""
+    },
+    {
+      src:
         "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545940310/Portraits/skate/img089.jpg",
       des: "Kevin Bilyeu - Bs Nosegrind | Philadelphia, Pa. 2017",
       name: "Kevin Bilyeu",
@@ -52,6 +60,14 @@ window.onload = () => {
     },
     {
       src:
+        "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1582926886/img153.jpg",
+      des: "Tyler Dietterich - Fs 5-0 | Philadelphia, Pa. 2018",
+      name: "Tyler Dietterich",
+      location: "Philadelphia",
+      date: ""
+    },
+    {
+      src:
         "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545963599/img061.jpg",
       des: "Kevin, Paris, Chris, AJ | Philadelphia, Pa. 2017",
       name: "Kevin, Paris, Chris, AJ",
@@ -76,6 +92,14 @@ window.onload = () => {
     },
     {
       src:
+        "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1582926538/img171.jpg",
+      des: "Josh Kalis - Tre Flip | Philadelphia, Pa. 2019",
+      name: "Josh Kalis",
+      location: "Philadelphia",
+      date: ""
+    },
+    {
+      src:
         "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545938970/Portraits/skate/img100.jpg",
       des: "Kevin Bilyeu - Switch Tail Slide | New York, N.Y. 2017",
       name: "Kevin Bilyeu",
@@ -85,7 +109,7 @@ window.onload = () => {
     {
       src:
         "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545939311/Portraits/skate/img125.jpg",
-      des: "Tyler Dietterich - 5-0 stall | Philadelphia, Pa. 2018",
+      des: "Tyler Dietterich - 5-0 Stall | Philadelphia, Pa. 2017",
       name: "Tyler Dietterich",
       location: "Philadelphia",
       date: ""
