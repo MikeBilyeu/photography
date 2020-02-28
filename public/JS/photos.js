@@ -59,6 +59,14 @@ window.onload = () => {
     },
     {
       src:
+        "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto//v1582925614/img199.jpg",
+      des: "AJ Mac | Philadelphia, Pa. 2017",
+      name: "AJ Mac",
+      location: "Philadelphia",
+      date: ""
+    },
+    {
+      src:
         "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545938970/Portraits/skate/img100.jpg",
       des: "Kevin Bilyeu - Switch Tail Slide | New York, N.Y. 2017",
       name: "Kevin Bilyeu",
