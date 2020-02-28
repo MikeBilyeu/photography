@@ -19,6 +19,15 @@ window.onload = () => {
     },
     {
       src:
+        "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1582926349/img191.jpg",
+      des: "Kevin Liedtke - Bs Noseblunt | Philadelphia, Pa. 2019",
+      name: "Kevin Liedtke",
+      location: "Philadelphia",
+      date: ""
+    },
+
+    {
+      src:
         "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1582925099/img198.jpg",
       des: "Jahmir Brown - Switch Bs 5-0 | Philadelphia, Pa. 2017",
       name: "Jahmir Brown",
