@@ -19,6 +19,14 @@ window.onload = () => {
     },
     {
       src:
+        "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1582925099/img198.jpg",
+      des: "Jahmir Brown - Switch Bs 5-0 | Philadelphia, Pa. 2017",
+      name: "Jahmir Brown",
+      location: "Philadelphia",
+      date: ""
+    },
+    {
+      src:
         "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545964288/img052.jpg",
       des: "AJ Mac | Philadelphia, Pa. 2017",
       name: "AJ Mac",
