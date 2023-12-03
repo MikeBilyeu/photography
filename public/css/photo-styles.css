@@ -56,29 +56,6 @@ nav {
   transition: all 0.1s ease-in-out;
 }
 
-.menuLink {
-  color: #f7f7f7;
-  text-decoration: none;
-  font-size: 1.2rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  transform: translateX(500%);
-  transition: transform 0.2s ease 0.1s;
-}
-
-.changeColor {
-  stroke: white !important;
-}
-
-.slideLeft {
-  transform: translateX(-100%);
-}
-
-.delaySlide {
-  transform: translateX(0px);
-}
-
 .photo-container {
   padding: 0.5rem 0 2rem 0;
   min-height: 100vh;
