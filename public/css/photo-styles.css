@@ -7,6 +7,7 @@ body {
   font-family: Helvetica, sans-serif;
   overflow-x: hidden;
   font-size: 20px;
+  background-color: #1f1f1f;
 }
 
 nav {
@@ -22,7 +23,7 @@ nav {
 
 #nav-name {
   box-sizing: border-box;
-  color: #1f1f1f;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
@@ -31,8 +32,9 @@ nav {
 }
 
 .photo-container {
-  padding: 5rem 1rem 2rem 1rem;
+  padding: 5rem 0.5rem 2rem 0.5rem;
   display: grid;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(4, 1fr);
   box-sizing: border-box;
   justify-items: center;
@@ -40,7 +42,7 @@ nav {
 }
 
 .photos {
-  width: 20vw;
+  width: 100%;
   object-fit: contain;
   -webkit-user-select: none;
   -moz-user-select: none;
