@@ -1,13 +1,6 @@
 "use strict";
 //wait for page to load all content befod
 window.onload = () => {
-  (function copyright() {
-    // get the current year
-    document.getElementById(
-      "copyright"
-    ).innerHTML = `Copyright © ${new Date().getFullYear()} MikeBilyeu.com`;
-  })();
-
   const photos = [
     {
       src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1582927357/img150.jpg",
