@@ -3,6 +3,48 @@
 window.onload = () => {
   const photos = [
     {
+      src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/v1701575249/DSC_4183.jpg",
+      des: "Jahmir Brown - Switch Fs Nose slide",
+      name: "Jahmir Brown",
+      location: "D.C.",
+      date: "",
+    },
+    {
+      src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/v1701577486/DSC_4941.jpg",
+      des: "Kevin Liedtke - Philadelphia, Pa.",
+      name: "Kevin Liedtke",
+      location: "Philadelphia",
+      date: "",
+    },
+    {
+      src: `https://res.cloudinary.com/mikebilyeuimg/image/upload/v1701577987/DSC_4556.jpg`,
+      des: "Paris Summerville - Nose slide | Philadelphia, Pa.",
+      name: "Paris Summerville",
+      location: "Philadelphia",
+      date: "",
+    },
+    {
+      src: `https://res.cloudinary.com/mikebilyeuimg/image/upload/v1701576239/DSC_9173.jpg`,
+      des: "Kevin Bilyeu - Sw Flip| Philadelphia, Pa.",
+      name: "Kevin Bilyeu",
+      location: "Philadelphia",
+      date: "",
+    },
+    {
+      src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/v1701579026/DSC_2072-2.jpg",
+      des: "Brian Odwyer - Philadelphia, Pa.",
+      name: "Brian Odwyer",
+      location: "Philadelphia",
+      date: "",
+    },
+    {
+      src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/v1701575711/DSC_8787.jpg",
+      des: "Jahmir Brown - Switch Fs Nose slide",
+      name: "Jahmir Brown",
+      location: "D.C.",
+      date: "",
+    },
+    {
       src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545940310/Portraits/skate/img089.jpg",
       des: "Kevin Bilyeu - Bs Nosegrind | Philadelphia, Pa. 2017",
       name: "Kevin Bilyeu",
@@ -18,8 +60,8 @@ window.onload = () => {
     },
     {
       src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/q_auto/v1545964473/img046.jpg",
-      des: "Kevin Bilyeu - Kickflip | Philadelphia, Pa. 2017",
-      name: "Kevin Bilyeu",
+      des: "Graeme Turner - Backside Flip | Philadelphia, Pa.",
+      name: "Graeme Turner",
       location: "Philadelphia",
       date: "",
     },
@@ -28,6 +70,13 @@ window.onload = () => {
       des: "Tyler Dietterich - Fs 5-0 | Philadelphia, Pa. 2018",
       name: "Tyler Dietterich",
       location: "Philadelphia",
+      date: "",
+    },
+    {
+      src: "https://res.cloudinary.com/mikebilyeuimg/image/upload/v1701577753/DSC_4247.jpg",
+      des: "John Shanahan - Nose blut",
+      name: "John Shanahan",
+      location: "D.C.",
       date: "",
     },
     {
