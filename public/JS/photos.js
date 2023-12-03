@@ -187,24 +187,7 @@ window.onload = () => {
     },
   ];
 
-  let topLine = document.getElementById("topLine"),
-    bottomLine = document.getElementById("bottomLine"),
-    menu = document.getElementById("menu"),
-    body = document.body,
-    menuLink = document.querySelectorAll(".menuLink"),
-    photoDescription = document.getElementById("photo-description");
-
-  function toggleMenu() {
-    topLine.classList.toggle("slideLeft");
-    bottomLine.classList.toggle("changeColor");
-    menu.classList.toggle("slideLeft");
-    menuLink.forEach((elem) => {
-      elem.classList.toggle("delaySlide");
-    });
-    body.classList.toggle("preventScroll");
-  }
-
-  document.getElementById("menuHome").onclick = () => toggleMenu();
+  let photoDescription = document.getElementById("photo-description");
 
   if (screen.width < 500) {
     document.getElementById("leftArrow").classList.add("removeMobile");
