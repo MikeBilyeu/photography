@@ -1,29 +1,28 @@
-/* mobile first */
-
 html,
 body {
   margin: 0 auto;
   width: 100%;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-  font-size: 20px;
-  background-color: #1f1f1f;
+  font-size: 25px;
+  background-color: rgb(10, 10, 10);
 }
 
 nav {
   display: grid;
   grid-auto-flow: column;
   width: 100%;
-  height: 3rem;
+  height: 2.5rem;
   align-items: center;
   justify-items: start;
-  padding: 0 0.2rem;
+  padding: 0 1rem;
   box-sizing: border-box;
+  position: fixed;
 }
 
 #nav-name {
   box-sizing: border-box;
-  color: white;
+  color: rgb(245, 245, 245);
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
@@ -31,41 +30,27 @@ nav {
   transition: opacity 0.1s ease-in-out;
 }
 
-.photo-container {
-  padding: 5rem 0.5rem 2rem 0.5rem;
+#nav-insta {
   display: grid;
-  grid-gap: 0.5rem;
-  grid-template-columns: repeat(4, 1fr);
-  box-sizing: border-box;
-  justify-items: center;
-  align-items: center;
+  justify-self: end;
 }
 
-.photos {
+.photo-container {
+  margin: 5px 5px 1rem 5px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-auto-flow: dense;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.photo-container > div > img {
   width: 100%;
-  object-fit: contain;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-/* screen >= 500px */
-@media screen and (min-width: 500px) {
-  nav {
-    padding: 0 1.5rem;
-  }
-
-  .photos {
-  }
-}
-
-/* screen >= 700px */
-@media screen and (min-width: 700px) {
-  nav {
-    padding: 0 3rem;
-  }
-}
-
-/* screen >= 1200px */
-@media screen and (min-width: 1200px) {
+  height: 100%;
+  object-fit: cover;
 }
